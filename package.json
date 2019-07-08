@@ -1,0 +1,25 @@
+{
+  "name": "broccoli-rollup-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "broccoli build"
+  },
+  "author": "givanse",
+  "keywords": [
+    "typescript",
+    "broccoli",
+    "rollup",
+    "plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli": "^3.1.2",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-rollup": "^4.1.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
